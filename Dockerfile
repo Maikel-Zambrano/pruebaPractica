@@ -2,9 +2,9 @@ FROM node:18-alpine
 
 WORKDIR /var/www
 
-COPY graph-cliente/package.json ./
+COPY package.json ./
 
-RUN npm install
+RUN yarn install
 
 COPY . .
 
