@@ -1,23 +1,73 @@
-# pruebaPractica
-# Crear repositorio público o privado 
-![1](https://github.com/Maikel-Zambrano/pruebaPractica/assets/79425169/7d1340b6-dc61-4a2f-9714-d3c8d6d0b19d)
-# Seguir los siguientes pasos para preparar su Código y así subirlo al repositorio.
-### Git init
-### Git add .
-### Git commit -m “Comentarios de este primer commit”
-![2](https://github.com/Maikel-Zambrano/pruebaPractica/assets/79425169/df577526-3244-4006-aa61-5927b845100a)
-# Copiar los siguiente commandos a la terminal y ejecutar para así subir su Código al repositorio
-### git remote add origin https://github.com/[usuario]/[repositorio].git
-### git branch -M main
-### git push -u origin main
-![3](https://github.com/Maikel-Zambrano/pruebaPractica/assets/79425169/71c26246-231e-4990-a906-32275d1fe6a4)
-# Crear los Secrets Docker_User y Docker_Password en la Plataforma GITHUB
-![4](https://github.com/Maikel-Zambrano/pruebaPractica/assets/79425169/8381c3fc-322d-42f7-b36a-93658f07f170)
-# Utilizar su usuario y clave (token) de Docker Hub para llenar estos secrets.
-# Crear Token en Docker (con el nombre Github-Actions) para que pueda ser utilizada en GitHub.
-# Copiar este Token generado en el Secret Docker_Password
-![5](https://github.com/Maikel-Zambrano/pruebaPractica/assets/79425169/bd2291ea-9c05-4abf-b6d3-d1b2083d3d01)
-# Crear Action tipo Docker Image para que se genere el Workflow
-![6](https://github.com/Maikel-Zambrano/pruebaPractica/assets/79425169/f0ed83b7-a228-4e0d-87ea-7982894bc50d)
-![7](https://github.com/Maikel-Zambrano/pruebaPractica/assets/79425169/a42252ab-df6f-4841-b43d-e505ad02882c)
-![8](https://github.com/Maikel-Zambrano/pruebaPractica/assets/79425169/ec5ad938-9aec-4f60-b513-e1e9ddeeb706)
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
+
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
+
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+
+## Description
+
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+## Installation
+
+```bash
+$ yarn install
+```
+
+## Running the app
+
+```bash
+# development
+$ yarn run start
+
+# watch mode
+$ yarn run start:dev
+
+# production mode
+$ yarn run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ yarn run test
+
+# e2e tests
+$ yarn run test:e2e
+
+# test coverage
+$ yarn run test:cov
+```
+
+## Support
+
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
