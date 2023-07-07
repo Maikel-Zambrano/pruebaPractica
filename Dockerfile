@@ -1,17 +1,13 @@
-FROM node:12-alpine
+FROM node:18-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /var/www
 
+COPY package.json ./
 
-COPY package*.json ./
+RUN npm install
 
+COPY . .
 
-RUN yarn install
+ENV PORT=5000
 
-COPY . ./
-
-RUN yarn build
-
-EXPOSE 3001
-
-ENTRYPOINT [ "yarn", "start:prod" ]
+CMD [ "node", "dist/main"]
