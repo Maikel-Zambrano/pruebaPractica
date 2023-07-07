@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 WORKDIR /var/www
 
-COPY package.json ./
+COPY graph-cliente/package.json ./
 
 RUN npm install
 
